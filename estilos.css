@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Poppins:wght@300&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Oooh+Baby&family=Poppins:wght@300&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Kdam+Thmor+Pro&family=Oooh+Baby&family=Poppins:wght@300&family=Secular+One&display=swap');
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .fondo-luigina{
+    background-image: url(imagenes/fondo1.jpg);
+    height: 1090px;
+    width: 100%;
+  }
+
+  .fondo-luigina .textos-portada{
+    padding: 330px;
+  }
+
+  .icono {
+    padding-top: 5px;
+    height: 30px;
+    position: relative;
+    top: 0;
+    animation: moverIcono 1s infinite alternate;
+  }
+  
+  @keyframes moverIcono {
+    20% {
+      top: 0;
+    }
+    100% {
+      top: 20px;
+    }
+  }
+
+  .image:hover {
+    filter: none;
+  }
+
+  
+  h1 {
+    font-family: 'Corinthia', cursive;
+    align-content: center;
+    font-size: 120px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  
+ .años {
+    font-size:28px;
+    margin-top: 2%;
+    
+  }
+
+  p.info {
+    font-size: 20px;
+    margin-top: 0%;
+    font-family: 'Poppins', sans-serif;
+  }
+ 
+  
+  .map-button {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 10px 60px;
+    background-color:#0f1ccf25;
+    color: #11057eda;
+    border: 2px solid #11057e67;
+    border-radius: 40px;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .map-button:hover {
+    background-color: #ffffff; /* Cambia el color de fondo al poner el mouse encima */
+    color:#11057eda; /* Cambia el color del texto al poner el mouse encima */
+  }
+
+  #countdown-container {
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  #countdown {
+    margin-top: 50px ;
+  }
+  
+.bloque #countdown{
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #0f1ccf25;
+  color: #11057e67;
+  margin-top: 0%;
+  font-size: 60px;
+  text-decoration: none;
+}
+
+.contenedor-imagenes {
+  object-position: center;
+}
+
+.imagen-nueva {
+  margin-top: 70px;
+  max-height: 400px;
+  width: 300px;
+  margin-inline: 10px;
+  object-fit: cover;
+  filter: grayscale(100%);
+  transition: filter 0.3s;
+  cursor: pointer;
+  border-radius: 20px;
+  flex: 1;
+}
+
+.imagen-nueva:hover {
+  filter: none;
+  transform: scale(1.07);
+}
+
+
+.dress-code{
+  margin-top: 2%;
+  padding: 20px;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.confirmacion-asistencia{
+  background-image: url(imagenes/fondo1.jpg);
+  padding: 20px;
+  font-size: 20px;
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.informacion-fiesta {
+  margin-top: 2%;
+  padding: 20px;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.contenedor-regalos{
+  background-color: white;
+  height: 180px;
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contenedor-regalos p{
+  margin: 0%;
+  font-size: 20px;
+  padding: 30px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+.saludo-final{
+  padding: 20px;
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer {
+  background-color: #0311d125;
+  color: #0000008f;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-info {
+  font-size: 17px;
+  display: inline-block;
+  margin-inline:3%;
+}
+
+@media only screen and (max-width: 1100px) {
+
+  .map-button {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 10px 60px;
+    background-color:#0f1ccf25;
+    color: #11057eda;
+    border: 2px solid #11057e67;
+    border: 2px solid;
+    border-radius: 40px;
+    font-size: 35px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .map-button:hover {
+    background-color: #ffffff; /* Cambia el color de fondo al poner el mouse encima */
+    color: #000000; /* Cambia el color del texto al poner el mouse encima */
+  }
+
+  .contenedor-regalos{
+    background-color: white;
+    height: 400px;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .saludo-final{
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+  }
+  .footer {
+    background-color: #0311d125;
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-info {
+    font-size: 35px;
+    display: inline-block;
+    margin-inline:3%;
+  }
+  .fondo-luigina{
+    background-image: url(imagenes/fondo1.jpg);
+    height: 2120px;
+    width: 100%;
+  }
+
+  .fondo-luigina .textos-portada{
+    padding-top: 800px;
+  }
+
+
+  .icono {
+    padding-top: 300px;
+    height: 30px;
+    position: relative;
+    animation: moverIcono 1s infinite alternate;
+  }
+  
+  @keyframes moverIcono {
+    20% {
+      top: 0;
+    }
+    100% {
+      top: 20px;
+    }
+  }
+}
